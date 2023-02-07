@@ -13,6 +13,8 @@ function Accordion(props: AccordionPropsType) {
     </div>
   };
 
+  //tsx types 
+  
 
   type AccordionTitlePropsType = {
     title: string
