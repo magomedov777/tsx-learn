@@ -14,7 +14,7 @@ function Accordion(props: AccordionPropsType) {
   };
 
 // type props 
-
+//learn 
   
 
   type AccordionTitlePropsType = {
