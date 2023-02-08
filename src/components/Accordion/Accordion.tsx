@@ -13,6 +13,7 @@ function Accordion(props: AccordionPropsType) {
     </div>
   };
 
+// type props 
 
   
 
