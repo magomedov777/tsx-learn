@@ -24,7 +24,6 @@ function AccordionTitle(props: AccordionTitlePropsType) {
 };
 
 function AccordionBody() {
-  console.log("AccordionBody rendering")
   return (
     <ul>
       <li>1</li>
