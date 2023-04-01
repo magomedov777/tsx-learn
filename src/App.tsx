@@ -39,7 +39,6 @@ type PageTitlePropsType = {
 
 
 function PageTitle(props: PageTitlePropsType) {
-  console.log("AppTitle Rendering")
   return <h1>{props.title}</h1>
 };
 
