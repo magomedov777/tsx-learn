@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import Accordion from './components/Accordion/Accordion';
-import Rating from './components/Rating/Rating';
+import { OnOff } from './components/OnOff';
+import UncontrolledAccordion from './components/Accordion/UnControlledAccordion';
+import UncontrolledRating from './components/Rating/UncontrolledRating';
 
 
 function sum(a: number, b: number) {
@@ -12,13 +13,17 @@ function sum(a: number, b: number) {
 function App() {
   console.log("App rendering")
   return (
-    <div>
-      <PageTitle title={"This is APP component"} />
-      <PageTitle title={"My friends"} />
+    <div className={'AppX'}>
+      <OnOff on={true}/>
+
+      <UncontrolledAccordion titleValue={'Menu'} />
+      
+      <UncontrolledRating/>
+      {/* <PageTitle title={"APP component"} />
+      <PageTitle title={"new"} />
       Article 1
       <Rating value={3} />
-      <Accordion titleValue={'Menu'} />
-      <Accordion titleValue={'Users'} />
+     
 
       Article 2
       <Rating value={0} />
@@ -26,7 +31,7 @@ function App() {
       <Rating value={2} />
       <Rating value={3} />
       <Rating value={4} />
-      <Rating value={5} />
+      <Rating value={5} /> */}
 
     </div>
   );
