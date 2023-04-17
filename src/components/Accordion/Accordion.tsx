@@ -8,6 +8,7 @@ type AccordionPropsType = {
 function Accordion(props: AccordionPropsType) {
   return <div>
     <AccordionTitle title={props.titleValue} />
+    <AccordionBody />
   </div>
 };
 
