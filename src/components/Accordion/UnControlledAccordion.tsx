@@ -13,7 +13,9 @@ function UncontrolledAccordion(props: AccordionPropsType) {
     </div>
 };
 
-
+type AccordionTitlePropsType = {
+    title: string
+}
 
 function AccordionTitle(props: AccordionTitlePropsType) {
     return (<div>
