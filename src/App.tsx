@@ -16,7 +16,7 @@ function App() {
     <div className={'AppX'}>
       <OnOff on={true}/>
 
-      <UncontrolledAccordion titleValue={'Menu'} />
+      <UncontrolledAccordion titleValue={'Menu'}/>
       
       <UncontrolledRating/>
       {/* <PageTitle title={"APP component"} />
